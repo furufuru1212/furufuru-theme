@@ -122,3 +122,12 @@ footer::after{
 	clear: both;
 	display: block;
 }
+
+#respond{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+#respond h3{
+	color: #e4007f;
+}
