@@ -131,3 +131,9 @@ footer::after{
 #respond h3{
 	color: #e4007f;
 }
+
+#comment{
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+}
