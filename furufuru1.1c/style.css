@@ -1,0 +1,265 @@
+/*
+Theme Name: Furufuru Theme 1col
+Theme URI: http://furufuru1212.net/
+Description: Like tumblr
+Version: 1.2
+Author: Furufuru
+Author URI: http://furufuru1212.net
+*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+@font-face {
+  font-family: 'fontello';
+  src: url("./res/font/fontello.eot");
+  src: url("./res/font/fontello.eot?57098116#iefix") format('embedded-opentype'), url("./res/font/fontello.woff") format('woff'), url("../font/fontello.ttf") format('truetype'), url("./res/font/fontello.svg#fontello") format('svg');
+}
+
+::selection {
+	background: #89e1f0;
+	color:#ffffff;
+}
+
+::-moz-selection {
+	background: #89e1f0;
+	color:#ffffff;
+}
+
+::-webkit-scrollbar {
+	overflow: hidden;
+	width: 4px;
+	background: #FFFFFF;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #95a5a6;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body{
+	background: #34495e;
+}
+
+li{
+	list-style-type:none;
+}
+
+#header{
+	height: 100px;
+	background: #ffb34f;
+}
+
+#logo{
+	margin: 0 auto;
+	width: 1000px;
+	font-size: 50px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	padding-top: 20px;
+	color: #45B8AC;
+	text-shadow: 1px 1px 0px #fff,2px 2px 0px #fff,3px 3px 0px #fff;
+}
+
+#bar{
+	width: 100%;
+	height: 40px;
+	background-color: #ffb34f;
+}
+
+#barcont{
+	width: 1000px;
+	height: 40px;
+	margin: 0px auto 0px;
+	list-style-type: none;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+#barcont li{
+	line-height: 20px;
+	padding: 10px 10px 0;
+	float: left;
+}
+
+#barcont a{
+	line-height: 20px;
+	color: #000;
+	-webkit-transition: 0.3s linear; 
+	-moz-transition: 0.3s linear; 
+}
+
+#barcont a:hover{
+	color: #fff;
+}
+
+#main{
+	margin: 0px auto;
+	width: 1215px;
+	min-height: 700px;
+}
+
+.maincontent{
+	margin: 0px auto;
+	width: 650px;
+	padding: 35px;
+}
+
+.title{
+	color: #fff;
+	text-shadow: 2px 2px 0px #16a085;
+	border-bottom: 1px solid;
+	margin: 7px 0;
+}
+
+.post{
+	padding:20px 50px;
+	background: #2c3e50;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.post h2{
+	font-size: 50px;
+	text-align: center;
+}
+
+.post h2 a{
+	color: #fff;
+}
+
+.post_info{
+	padding: 5px;
+	background: #45B8AC;
+	border-radius: 5px;
+	color: #fff;
+	text-shadow: 1px 1px 0px #252525;
+}
+
+.post_info a{
+	color: #fff;
+}
+
+#foot{
+	width: 100%;
+	background: #3E3E3E;
+	color: #E8E8E8;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+}
+
+.footmain{
+	margin: 0px auto;
+	width: 1215px;
+	padding: 50px 0px;
+}
+
+.fixed{
+	position: fixed;
+	top: 0px;
+	z-index: 9999;
+}
+
+.cal:before{
+    font-family: 'fontello';
+    content: '\1F4C5';
+    color: #fff;
+    margin:0 3px;
+}
+
+.cat:before{
+    font-family: 'fontello';
+    content: '\E70C';
+    color: #fff;
+    margin:0 3px;
+    padding-left: 5px;
+}
+
+.tag:before{
+    font-family: 'fontello';
+    content: '\E70D';
+    color: #fff;
+    margin:0 3px;
+    padding-left: 5px;
+}
+
+.more-link{}
+
+.tag a , .cat a{
+	-webkit-transition: 0.3s linear; 
+	-moz-transition: 0.3s linear; 
+}
+
+.tag:hover a , .cat:hover a{
+	text-shadow: 1px 1px 0px #252525,2px 2px 5px #000;
+}
+
+#comments{
+	padding-top: 20px;
+}
+
+#respond{
+	color: #fff;
+	background: #2c3e50;
+}
+
+#respond form{
+	text-align: center;
+}
+
+#respond form p input{
+	margin: 10px 0;
+	background: #152535;
+	color: #fff;
+	border: none;
+	padding: 5px;
+	border-radius: 2px;
+}
+
+#comment{
+	min-width: 600px;
+	max-width: 600px;
+}
+
+#respond h3{
+	padding: 7px 0 0 7px;
+}
+
+#respond form p{
+	padding:2px 0;
+}
+
+#respond form p a{
+	color: #bdc3c7;
+	text-decoration: underline;
+}
+
+.commentlist{
+	margin-bottom: 10px;
+}
+
+#comments{
+	color: #fff;
+	border-bottom: 1px solid;
+	margin-left: -30px;
+	margin-bottom: 10px;
+}
+
+form p textarea{
+	box-shadow: 1px 1px 3px #2c3e50 inset;
+	outline: none;
+	padding: 5px;
+	-webkit-transition: 0.3s linear; 
+	-moz-transition: 0.3s linear; 
+	transition: 0.3s linear; 
+}
+
+form p textarea:focus , form p textarea:hover{
+	box-shadow: 1px 1px 5px #2c3e50 inset,1px 1px 0px #152535,2px 2px 0px #152535,3px 3px 0px #152535,4px 4px 0px #152535,5px 5px 0px #152535,
+	-1px 1px 0px #152535,-2px 2px 0px #152535,-3px 3px 0px #152535,-4px 4px 0px #152535,-5px 5px 0px #152535;
+}

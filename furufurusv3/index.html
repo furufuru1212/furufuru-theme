@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title></title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1>Furufuru Server</h1>
+		</div>
+	</header>
+	<nav>
+		<div class="container">
+			<ul>
+				<a href="/blog"><li>Vlog Top</li></a>
+				<a href="/"><li>Site Top</li></a>
+				<a href="/wiki"><li>Wiki</li></a>
+				<a href="https://twitter.com/huruhuru1212"><li>@huruhuru1212</li></a>
+				<a href="https://twitter.com/furufuruserver"><li>@furufuruserver</li></a>
+			</ul>
+		</div>
+	</nav>
+	<main>
+		<div class="container">
+			<section>
+				<article>
+					<? if (have_posts()) : ?>
+                   	                    			<? while (have_posts()) : the_post(); ?>
+						<div class="post_info">
+							<p class="cal"><? the_time('Y/m/d') ?></p>
+						</div>
+						<div class="post">
+							<h2 class="title"><a href="<? the_permalink() ?>" title="<? the_title_attribute(); ?>">タイトル<? the_title(); ?></a></h2>
+								<? the_content('続きを読む'); ?>
+						</div>
+					<? endwhile; ?>
+				</article>
+			</section>
+		</div>
+	</main>
+	<footer>
+		<p>&copy; 2013 Furufuru.</p>
+	</footer>
+</body>
+<?/*
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+<script>
+$(function(){var box=$("nav");var boxTop = box.offset().top;$(window).scroll(function () {if($(window).scrollTop() >= boxTop) {box.addClass("fixed");$("body").css("margin-top","40px");} else {box.removeClass("fixed");$("body").css("margin-top","0px");}});});
+*/?>
+</script>
+<html>

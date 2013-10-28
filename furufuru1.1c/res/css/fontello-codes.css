@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+
+.icon-tag:before { content: '\e70c'; } /* '' */
+.icon-tags:before { content: '\e70d'; } /* '' */
+.icon-calendar:before { content: '📅'; } /* '\1f4c5' */
