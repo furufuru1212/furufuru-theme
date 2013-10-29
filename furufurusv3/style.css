@@ -97,7 +97,7 @@ article{
 	margin:0 20px;
 }
 
-.title a{
+.title,.title a{
 	color: #e4007f;
 	text-decoration: none;
 }

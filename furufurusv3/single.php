@@ -9,8 +9,8 @@
 							<p class="cal"><span><? the_time('Y/m/d') ?></span></p>
 						</div>
 						<div class="post">
-							<h2 class="title"><a href="<? the_permalink() ?>" title="<? the_title_attribute(); ?>"><? the_title(); ?></a></h2>
-								<? the_content('続きを読む'); ?>
+							<h2 class="title"><? the_title(); ?></h2>
+								<? the_content(); ?>
 						</div>
 						<?comments_template(); ?>
 					</article>
