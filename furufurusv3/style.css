@@ -137,3 +137,10 @@ footer::after{
 	min-width: 100%;
 	max-width: 100%;
 }
+
+/***********
+/
+/ remove comment inputs.
+/
+************/
+#commentform p input[email]
