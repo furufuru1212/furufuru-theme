@@ -10,12 +10,6 @@ Author URI: https://furufuru1212.net
 
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
 
-@font-face {
-  font-family: 'fontello';
-  src: url("./res/font/fontello.eot");
-  src: url("./res/font/fontello.eot?57098116#iefix") format('embedded-opentype'), url("./res/font/fontello.woff") format('woff'), url("../font/fontello.ttf") format('truetype'), url("./res/font/fontello.svg#fontello") format('svg');
-}
-
 ::selection {
 	background: #89e1f0;
 	color:#ffffff;
@@ -154,13 +148,6 @@ nav ul a{
 	margin: 0px auto;
 	width: 1215px;
 	padding: 50px 0px;
-}
-
-.cal:before{
-    font-family: 'fontello';
-    content: '\1F4C5';
-    color: #fff;
-    margin:0 3px;
 }
 
 #comments{

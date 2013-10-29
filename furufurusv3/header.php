@@ -11,13 +11,5 @@
 		</div>
 	</header>
 	<nav>
-		<div class="container">
-			<ul>
-				<li><a href="/blog">Vlog Top</a></li>
-				<li><a href="/">Site Top</a></li>
-				<li><a href="/wiki">Wiki</a></li>
-				<li><a href="https://twitter.com/huruhuru1212">@huruhuru1212</a></li>
-				<li><a href="https://twitter.com/furufuruserver">@furufuruserver</a></li>
-			</ul>
-		</div>
+		<?wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => '' ) ); ?>
 	</nav>

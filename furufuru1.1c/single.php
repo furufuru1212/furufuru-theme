@@ -6,7 +6,7 @@
                     		                    <?while (have_posts()) : the_post(); ?>
 				<div class="post">
 					<div class="post_info">
-						<? the_time('Y/m/d');?>
+						<p style="text-align:right;"><?the_time('Y/m/d'); ?> Posted by <? the_author(); ?></p>
 					</div>
 					<h2 class="title"><? the_title(); ?></h2>
 					<?the_content(); ?>

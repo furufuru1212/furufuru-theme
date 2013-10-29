@@ -42,7 +42,7 @@ header h3{
 	margin-left: 20px;
 }
 
-.container{
+.container ,nav div{
 	width: 1000px;
 	margin: 0 auto;
 }
