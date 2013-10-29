@@ -7,9 +7,8 @@
 	<div id="header">
 		<h1 id="logo"><?bloginfo('name'); ?></h1>
 	</div>
-	<div id="bar">
+	<nav>
 		<ul id="barcont">
-			<li><a href="">test</a></li>
-			<li><a href="">test</a></li>
+			<?wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'bar' ) ); ?>
 		</ul>
-	</div>
+	</nav>

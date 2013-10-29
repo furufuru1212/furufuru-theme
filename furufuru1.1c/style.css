@@ -1,10 +1,10 @@
 /*
-Theme Name: Furufuru Theme 1col
-Theme URI: http://furufuru1212.net/
+Theme Name: Furufuru Theme
+Theme URI: https://furufuru1212.net/
 Description: Like tumblr
 Version: 1.2
 Author: Furufuru
-Author URI: http://furufuru1212.net
+Author URI: https://furufuru1212.net
 */
 
 
@@ -66,13 +66,13 @@ li{
 	text-shadow: 1px 1px 0px #fff,2px 2px 0px #fff,3px 3px 0px #fff;
 }
 
-#bar{
+nav{
 	width: 100%;
 	height: 40px;
 	background-color: #ffb34f;
 }
 
-#barcont{
+nav ul{
 	width: 1000px;
 	height: 40px;
 	margin: 0px auto 0px;
@@ -81,13 +81,13 @@ li{
 	font-weight: 300;
 }
 
-#barcont li{
+nav ul li{
 	line-height: 20px;
 	padding: 10px 10px 0;
 	float: left;
 }
 
-#barcont a{
+nav ul a{
 	line-height: 20px;
 	color: #000;
 	-webkit-transition: 0.3s linear; 
@@ -112,9 +112,11 @@ li{
 
 .title{
 	color: #fff;
-	text-shadow: 2px 2px 0px #16a085;
+	text-shadow: 1px 1px 0px #16a085;
 	border-bottom: 1px solid;
 	margin: 7px 0;
+	font-size: 30px;
+	text-align: center;
 }
 
 .post{
@@ -122,11 +124,6 @@ li{
 	background: #2c3e50;
 	color: #fff;
 	margin-bottom: 20px;
-}
-
-.post h2{
-	font-size: 50px;
-	text-align: center;
 }
 
 .post h2 a{
@@ -159,44 +156,11 @@ li{
 	padding: 50px 0px;
 }
 
-.fixed{
-	position: fixed;
-	top: 0px;
-	z-index: 9999;
-}
-
 .cal:before{
     font-family: 'fontello';
     content: '\1F4C5';
     color: #fff;
     margin:0 3px;
-}
-
-.cat:before{
-    font-family: 'fontello';
-    content: '\E70C';
-    color: #fff;
-    margin:0 3px;
-    padding-left: 5px;
-}
-
-.tag:before{
-    font-family: 'fontello';
-    content: '\E70D';
-    color: #fff;
-    margin:0 3px;
-    padding-left: 5px;
-}
-
-.more-link{}
-
-.tag a , .cat a{
-	-webkit-transition: 0.3s linear; 
-	-moz-transition: 0.3s linear; 
-}
-
-.tag:hover a , .cat:hover a{
-	text-shadow: 1px 1px 0px #252525,2px 2px 5px #000;
 }
 
 #comments{
