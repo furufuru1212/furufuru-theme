@@ -1,14 +1,15 @@
 /*
-Theme Name: Furufuru Server Theme
+Theme Name: Furufuru Server Theme - Halloween
 Theme URI: https://furufuru1212.net/
 Description: A wordpress theme.
-Version: 3(1.0)
+Version: 3-halloween(1.0)
 Author: Furufuru
 Author URI: https://furufuru1212.net
 */
 
 @import url(https://fonts.googleapis.com/css?family=Paytone+One);
 @import url(https://sub.furufuru1212.net/css/res/mplus.css);
+@import url(https://fonts.googleapis.com/css?family=Creepster);
 *{margin: 0;padding: 0;}
 .fixed{position: fixed;top: 0px;z-index: 9999;left:0;width:100%;}
 a{color: #000;}
@@ -33,18 +34,18 @@ a{color: #000;}
 
 body{
 	font-family: 'mplus-1p-light';
-	background: #51c9ff;
+	background: #34495e;
 }
 
 header{
-	background: #fff;
 	padding: 10px 0;
 }
 
 header h1{
-	font-family: 'Paytone One', sans-serif;
+	font-family: 'Creepster', cursive;
+	text-align: center;
 	font-size: 40px;
-	color: #e4007f;
+	color: #e74c3c;
 }
 
 header h3{
@@ -57,18 +58,18 @@ header h3{
 }
 
 nav{
-	background: #00a0e9;
+	background: #2c3e50;
 	height: 40px;
 }
 
 nav div ul{
-	float: left;
 	text-decoration: none;
+	text-align: center;
 }
 
 nav div ul li a{
 	text-decoration: none;
-	background: #fff100;
+	background: #d35400;
 	/*height: 40px;*/
 	line-height: 40px;
 	padding: 9px 15px;
@@ -76,12 +77,12 @@ nav div ul li a{
 }
 
 nav div ul li a:hover{
-	background: #e4007f;
+	background: #c0392b;
 	color: #fff;
 }
 
 nav div ul li{
-	float: left;
+	display: inline;
 	list-style-type:none;
 }
 
@@ -107,18 +108,19 @@ article{
 }
 
 .title,.title a{
-	color: #e4007f;
+	color: #f39c12;
 	text-decoration: none;
 }
 
 .cal span{
-	background: #00a0e9;
-	color: #fff;
+	background: #f39c12;
+	color: #000;
 }
 
 footer{
 	width: 100%;
-	background: #fff100;
+	background: #8e44ad;
+	color: #fff;
 }
 
 footer p{
