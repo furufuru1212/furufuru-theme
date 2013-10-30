@@ -88,7 +88,7 @@ nav ul a{
 	-moz-transition: 0.3s linear; 
 }
 
-#barcont a:hover{
+nav ul a:hover{
 	color: #fff;
 }
 
@@ -159,10 +159,6 @@ footer{
 	background: #2c3e50;
 }
 
-#respond form{
-	text-align: center;
-}
-
 #respond form p input{
 	margin: 10px 0;
 	background: #152535;
@@ -179,6 +175,11 @@ footer{
 
 #respond h3{
 	padding: 7px 0 0 7px;
+}
+
+#respond form{
+	width: 600px;
+	margin: 0 auto;
 }
 
 #respond form p{
@@ -208,6 +209,9 @@ form p textarea{
 	-webkit-transition: 0.3s linear; 
 	-moz-transition: 0.3s linear; 
 	transition: 0.3s linear; 
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
 }
 
 form p textarea:focus , form p textarea:hover{
