@@ -1,6 +1,6 @@
 <?get_header(); ?>
-	<div style="padding-top: 20px;" />
-	<div id="main">
+	<div style="padding-top: 20px;"></div>
+	<main>
 			<div class="maincontent">
 				<?if (have_posts());?>
                     		                    <?while (have_posts()) : the_post(); ?>
@@ -15,6 +15,6 @@
 				<?comments_template(); ?>
 				<? endwhile; ?>
 			</div>
-	</div>
+	</main>
 </div>
 <?get_footer(); ?>

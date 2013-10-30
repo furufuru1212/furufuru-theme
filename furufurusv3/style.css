@@ -1,15 +1,14 @@
 /*
 Theme Name: Furufuru Server Theme
-Theme URI: http://furufuru1212.net/
+Theme URI: https://furufuru1212.net/
 Description: A wordpress theme.
 Version: 3(1.0)
 Author: Furufuru
-Author URI: http://furufuru1212.net
+Author URI: https://furufuru1212.net
 */
 
 @import url(https://fonts.googleapis.com/css?family=Paytone+One);
 @import url(https://sub.furufuru1212.net/css/res/mplus.css);
-
 *{margin: 0;padding: 0;}
 .fixed{position: fixed;top: 0px;z-index: 9999;left:0;width:100%;}
 a{color: #000;}
@@ -20,6 +19,16 @@ a{color: #000;}
 ::-moz-selection {
 	background: #f39c12;
 	color: #ffffff;
+}
+
+::-webkit-scrollbar {
+	overflow: hidden;
+	width: 4px;
+	background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #e4007f;
 }
 
 body{

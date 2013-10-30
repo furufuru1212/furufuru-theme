@@ -1,7 +1,7 @@
-	<div id="foot">
-	<div class="footmain">
-		<p>&copy; <?echo date("Y"); ?> Furufuru.</p>
-	</div>
-	</div>
+	<footer>
+		<div class="footmain">
+			<p>&copy; <?echo date("Y"); ?> Furufuru.</p>
+		</div>
+	</footer>
 </body>
 </html>

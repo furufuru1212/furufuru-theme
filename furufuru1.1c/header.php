@@ -4,9 +4,9 @@
 	<link href="<?bloginfo( 'stylesheet_url' ); ?>" rel="stylesheet">
 </head>
 <body>
-	<div id="header">
+	<header>
 		<h1 id="logo"><?bloginfo('name'); ?></h1>
-	</div>
+	</header>
 	<nav>
 		<?wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'bar' ) ); ?>
 	</nav>

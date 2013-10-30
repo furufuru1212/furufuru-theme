@@ -44,7 +44,7 @@ li{
 	list-style-type:none;
 }
 
-#header{
+header{
 	height: 100px;
 	background: #ffb34f;
 }
@@ -92,7 +92,7 @@ nav ul a{
 	color: #fff;
 }
 
-#main{
+main{
 	margin: 0px auto;
 	width: 1215px;
 	min-height: 700px;
@@ -136,7 +136,7 @@ nav ul a{
 	color: #fff;
 }
 
-#foot{
+footer{
 	width: 100%;
 	background: #3E3E3E;
 	color: #E8E8E8;
