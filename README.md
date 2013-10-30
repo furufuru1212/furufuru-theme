@@ -1,4 +1,4 @@
-furufuru-theme
+Furufuru Themes
 ==============
 
-WP themes
+WP themes for [Furufuru Server Blog](https://sub.furufuru1212.net/blog/)
