@@ -139,3 +139,22 @@ footer p{
 	min-width: 100%;
 	max-width: 100%;
 }
+
+#submit{
+	padding: 7px 11px;
+	border: none;
+	background: #e4007f;
+	color: #fff;
+	-webkit-transition: 0.2s linear;
+	transition: 0.2s linear;
+	outline: none;
+}
+
+#submit:hover{
+	background: #B30063;
+}
+
+#submit:active {
+	-webkit-transform: scale(.9, .9);
+	transform: scale(.9, .9);
+}
