@@ -218,3 +218,8 @@ form p textarea:focus , form p textarea:hover{
 	box-shadow: 1px 1px 5px #2c3e50 inset,1px 1px 0px #152535,2px 2px 0px #152535,3px 3px 0px #152535,4px 4px 0px #152535,5px 5px 0px #152535,
 	-1px 1px 0px #152535,-2px 2px 0px #152535,-3px 3px 0px #152535,-4px 4px 0px #152535,-5px 5px 0px #152535;
 }
+
+/*Remove subcription forms.*/
+.comment-subscription-form {
+	display: none;
+}
