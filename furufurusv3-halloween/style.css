@@ -142,3 +142,8 @@ footer p{
 	min-width: 100%;
 	max-width: 100%;
 }
+
+/*Remove subcription forms.*/
+.comment-subscription-form {
+	display: none;
+}
