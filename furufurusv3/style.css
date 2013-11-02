@@ -175,3 +175,9 @@ footer p{
 .comment-subscription-form {
 	display: none;
 }
+
+.author{
+	float: right;
+	width: 30%;
+	text-align: right;
+}
