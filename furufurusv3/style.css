@@ -142,6 +142,13 @@ footer p{
 	width: 100%;
 	min-width: 100%;
 	max-width: 100%;
+	outline: none;
+	-webkit-transition: 0.2s linear;
+	transition: 0.2s linear;
+}
+
+#comment:hover, #comment:focus {
+	border-color: #00a0e9;
 }
 
 #submit{
