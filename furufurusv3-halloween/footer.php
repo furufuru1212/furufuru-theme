@@ -1,5 +1,5 @@
 	<footer>
-		<p>&copy; 2013 Furufuru.</p>
+		<p>&copy; <?echo date("Y"); ?> <? bloginfo('name'); ?>.</p>
 	</footer>
 </body>
 </html>
