@@ -155,6 +155,7 @@ footer p{
 	padding: 7px 11px;
 	border: none;
 	background: #e4007f;
+	border-color: #000;
 	color: #fff;
 	-webkit-transition: 0.2s linear;
 	transition: 0.2s linear;
