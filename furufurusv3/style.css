@@ -145,7 +145,7 @@ footer p{
 	outline: none;
 	-webkit-transition: 0.2s linear;
 	transition: 0.2s linear;
-	border-color: #000;
+	border-color: #2c3e50;
 }
 
 #comment:hover, #comment:focus {
