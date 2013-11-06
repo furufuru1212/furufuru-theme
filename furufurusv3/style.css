@@ -12,6 +12,7 @@ Author URI: https://furufuru1212.net
 *{margin: 0;padding: 0;}
 .fixed{position: fixed;top: 0px;z-index: 9999;left:0;width:100%;}
 a{color: #000;}
+a:hover{color:#e74c3c;-webkit-transition: 0.2s linear;transition: 0.2s linear;}
 ::selection {
 	background: #2ecc71;
 	color: #ffffff;
