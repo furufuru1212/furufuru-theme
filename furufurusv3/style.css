@@ -147,6 +147,7 @@ footer p{
 	-webkit-transition: 0.2s linear;
 	transition: 0.2s linear;
 	border-color: #2c3e50;
+	padding: 4px;
 }
 
 #comment:hover, #comment:focus {
