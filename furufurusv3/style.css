@@ -162,6 +162,7 @@ footer p{
 	-webkit-transition: 0.2s linear;
 	transition: 0.2s linear;
 	outline: none;
+	margin-left: calc(100% - 94px);
 }
 
 #submit:hover{
