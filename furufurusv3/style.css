@@ -8,7 +8,6 @@ Author URI: https://furufuru1212.net
 */
 
 @import url(https://fonts.googleapis.com/css?family=Paytone+One);
-@import url(https://sub.furufuru1212.net/css/res/mplus.css);
 *{margin: 0;padding: 0;}
 .fixed{position: fixed;top: 0px;z-index: 9999;left:0;width:100%;}
 a{color: #000;}
@@ -33,7 +32,6 @@ a:hover{color:#e74c3c;-webkit-transition: 0.2s linear;transition: 0.2s linear;}
 }
 
 body{
-	font-family: 'mplus-1p-light';
 	background: #51c9ff;
 }
 
