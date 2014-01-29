@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?bloginfo('name'); ?></title>
-	<link href="<? bloginfo('stylesheet_url' ); ?>" rel="stylesheet">
+	<meta charset="<?bloginfo('charset');?>"></meta>
+	<title><?bloginfo('name'); wp_title();?></title>
+	<link href="<?bloginfo('stylesheet_url');?>" rel="stylesheet">
+	<?wp_head();?>
 </head>
-<body>
+<body <?body_class();?>>
 	<header>
 		<div class="container">
-			<h1><? bloginfo('name'); ?></h1>
+			<h1><?bloginfo('name');?></h1>
 		</div>
 	</header>
 	<nav>
