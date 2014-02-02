@@ -2,6 +2,7 @@
 <head>
 	<title><?bloginfo('name'); ?></title>
 	<link href="<?bloginfo( 'stylesheet_url' ); ?>" rel="stylesheet">
+	<?wp_head();?>
 </head>
 <body>
 	<header>
