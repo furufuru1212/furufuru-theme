@@ -49,6 +49,14 @@ header{
 	background: #ffb34f;
 }
 
+a{
+	color: #e74c3c;
+}
+
+a:hover{
+	color: #c0392b;
+}
+
 #logo{
 	margin: 0 auto;
 	width: 1000px;
